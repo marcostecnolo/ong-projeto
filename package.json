@@ -1,0 +1,27 @@
+{
+  "name": "projeto.ong",
+  "version": "1.0.0",
+  "description": "Projeto web da **ONG Recomeçar**, desenvolvido para apresentar a organização, seus projetos e possibilitar o cadastro de interessados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --config vite.config.mjs",
+    "build": "vite build --config vite.config.mjs",
+    "preview": "vite preview --config vite.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcostecnolo/ong-projeto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/marcostecnolo/ong-projeto/issues"
+  },
+  "homepage": "https://github.com/marcostecnolo/ong-projeto#readme",
+  "devDependencies": {
+    "vite": "^8.3.1"
+  }
+}
