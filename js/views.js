@@ -28,7 +28,7 @@ export const Views = {
             </span>
 
             <img
-              src="../img/projeto-voluntariado.png"
+              src="../img/projeto-voluntariado.webp"
               alt="Voluntários realizando uma ação comunitária"
               class="card-img"
             >
@@ -66,7 +66,7 @@ export const Views = {
           <div class="card-image-wrapper">
 
             <img
-              src="../img/projeto-familias.jpg"
+              src="../img/projeto-familias.webp"
               alt="Famílias recebendo apoio"
               class="card-img"
             >
@@ -132,7 +132,7 @@ export const Views = {
         <article class="card-container">
 
           <img
-            src="../img/projeto-educacao.jpg"
+            src="../img/projeto-educacao.webp"
             alt="Criança participando de atividade educacional"
             class="card-img"
           >
@@ -158,7 +158,7 @@ export const Views = {
         <article class="card-container">
 
           <img
-            src="../img/projeto-familias.jpg"
+            src="../img/projeto-familias.webp"
             alt="Família recebendo apoio de uma ação social"
             class="card-img"
           >
@@ -183,7 +183,7 @@ export const Views = {
         <article class="card-container">
 
           <img
-            src="../img/projeto-voluntariado.png"
+            src="../img/projeto-voluntariado.webp"
             alt="Voluntários realizando atividade comunitária"
             class="card-img"
           >
