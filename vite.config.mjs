@@ -5,7 +5,11 @@ import { fileURLToPath } from "node:url";
 const rootDir = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
+  root: resolve(rootDir, "html"),
+  base: "./",
   build: {
+    outDir: resolve(rootDir, "dist"),
+    emptyOutDir: true,
     rollupOptions: {
       input: {
         index: resolve(rootDir, "html/index.html"),
@@ -15,6 +19,6 @@ export default defineConfig({
     }
   },
   server: {
-    open: "/html/index.html"
+    open: "/index.html"
   }
 });
